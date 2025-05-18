@@ -16,7 +16,7 @@ body {
 /* Banner Image */
 .banner {
   width: 10%;
-  max-width: 50px;
+  max-width: 30px;
   height: auto;
   border-radius: 10px;
   margin: 0 auto;
@@ -24,17 +24,17 @@ body {
 
 /* WhatsApp Icon under banner */
 .center-icon {
-  margin: 15px 0;
+  margin: 5px 0;
 }
 
 .wa-icon {
-  width: 20px;
+  width: 7px;
   height: auto;
 }
 
 /* Instruction Text */
 .instruction {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   margin: 10px 0;
 }
@@ -43,8 +43,8 @@ body {
 .store-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin: 20px 0;
+  gap: 8px;
+  margin: 1px 0;
   align-items: center;
 }
 
@@ -54,10 +54,10 @@ body {
   text-decoration: none;
   background-color: #fff;
   border: 2px solid #000;
-  border-radius: 30px;
+  border-radius: 15px;
   padding: 10px 15px;
-  width: 40%;
-  max-width: 40px;
+  width: 15%;
+  max-width: 20px;
   transition: 0.3s ease;
 }
 
@@ -66,10 +66,10 @@ body {
 }
 
 .store-button img {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  margin-right: 15px;
+  width: 8px;
+  height: 8px;
+  border-radius: 20%;
+  margin-right: 8px;
 }
 
 .store-button span {
