@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fdebd0;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Banner Image */
+.banner {
+  width: 10%;
+  max-width: 50px;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+/* WhatsApp Icon under banner */
+.center-icon {
+  margin: 15px 0;
+}
+
+.wa-icon {
+  width: 20px;
+  height: auto;
+}
+
+/* Instruction Text */
+.instruction {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Store Button Styles */
+.store-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.store-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: 40%;
+  max-width: 40px;
+  transition: 0.3s ease;
+}
+
+.store-button:hover {
+  background-color: #f7c59f;
+}
+
+.store-button img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.store-button span {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Warning Text */
+.warning {
+  margin: 20px 0 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* WhatsApp Contact Box */
+.whatsapp-box {
+  display: flex;
+  align-items: center;
+  background-color: #dcf8c6;
+  border-radius: 20px;
+  padding: 15px;
+  width: 40%;
+  max-width: 40px;
+  margin: 0 auto 30px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.whatsapp-box img {
+  width: 30px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.whatsapp-box p {
+  font-size: 16px;
+  text-align: left;
+  color: #000;
+}
